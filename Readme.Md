@@ -408,13 +408,8 @@ Cria um novo fisioterapeuta no sistema. Este endpoint está disponível para tod
 {
   "idFisioterapeuta": 0,
   "nomeFisioterapeuta": "string",
-  "cpf": "string",
-  "uf": "string",
-  "endereco": "string",
-  "numeroCasa": "string",
-  "dataDeNascimento": "2024-06-12T19:02:34.906Z",
-  "sexo": "m",
-  "formacao": "string",
+  "Semestre": "string",
+  "matricula": "string",
   "emailFisioterapeuta": "TesteFisio@example.com",
   "password" : "passwordTeste",
   "tipoUsuario": 2
