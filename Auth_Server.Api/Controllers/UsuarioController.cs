@@ -65,7 +65,7 @@ namespace Authetication.Server.Api.Controllers
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<ActionResult> Post([FromBody] UsuarioDto usuarioDto)
         {
             if (usuarioDto == null)
